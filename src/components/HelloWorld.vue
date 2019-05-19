@@ -21,7 +21,7 @@
     </v-flex>
 
     <!-- Dialog -->
-    <v-dialog v-model="dialog" persistent="true" width="500">
+    <v-dialog v-model="dialog" persistent width="500">
       <v-card>
         <v-card-title class="headline grey lighten-2" primary-title>Privacy Policy</v-card-title>
         <v-card-text>
