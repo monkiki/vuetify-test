@@ -4,13 +4,13 @@
       <v-toolbar-side-icon></v-toolbar-side-icon>
       <v-toolbar-title class="headline text-uppercase">Vuetify</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn flat href="#" target="_blank">
-        <span class="mr-2">Hello</span>
+      <v-btn flat to="about">
+        <span class="mr-2">Sign</span>
       </v-btn>
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <router-view/>
     </v-content>
 
     <v-footer dark color="blue">
